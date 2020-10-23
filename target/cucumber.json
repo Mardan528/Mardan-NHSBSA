@@ -1,0 +1,164 @@
+[
+  {
+    "line": 6,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-22T22:26:39.982Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6123534000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nhs.step_defs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "About the person circumstances",
+        "description": "",
+        "id": "about-the-person-free-treatment;about-the-person-circumstances",
+        "after": [
+          {
+            "result": {
+              "duration": 98775000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.nhs.step_defs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26723488000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am a person from \"Wales\" date of birth \"27\" \"05\" \"1988\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wales\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"27\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"05\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"1988\"",
+                  "offset": 51
+                }
+              ],
+              "location": "com.nhs.step_defs.US1_WalesTestTicket.i_am_a_person_from_date_of_birth(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22103687000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I put my circumstances into the Checker tool",
+            "match": {
+              "location": "com.nhs.step_defs.US1_WalesTestTicket.i_put_my_circumstances_into_the_Checker_tool(java.util.Map\u003cjava.lang.String, ?\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Living with Partner",
+                  "No"
+                ]
+              },
+              {
+                "cells": [
+                  "Benefits or tax credits",
+                  "No"
+                ]
+              },
+              {
+                "cells": [
+                  "Are you pregnant",
+                  "No"
+                ]
+              },
+              {
+                "cells": [
+                  "Injury or illness",
+                  "No"
+                ]
+              },
+              {
+                "cells": [
+                  "Do you have diabetes",
+                  "No"
+                ]
+              },
+              {
+                "cells": [
+                  "Do you have glaucoma",
+                  "No"
+                ]
+              },
+              {
+                "cells": [
+                  "Do you live permanently in a care home",
+                  "No"
+                ]
+              },
+              {
+                "cells": [
+                  "Do you have Investments or property",
+                  "No"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57561000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should get a result of whether I will get help or not",
+            "match": {
+              "location": "com.nhs.step_defs.US1_WalesTestTicket.i_should_get_a_result_of_whether_I_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "About the person free treatment",
+    "description": "",
+    "id": "about-the-person-free-treatment",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/features/us1.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
